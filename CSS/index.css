@@ -3,11 +3,24 @@
   padding: 0rem;
   box-sizing: border-box;
 }
+.bg-grey {
+  background-color: #343a40;
+}
 .adjust {
   filter: brightness(0.4);
 }
-.top_75 {
-  top: 75%;
+.top_70 {
+  top: 70%;
+}
+.size {
+  font-size: 3rem;
+}
+.nav_text {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.nav_text:hover {
+  color: #e74c3c;
 }
 .gap {
   gap: 4.5rem;
@@ -53,6 +66,7 @@
     opacity: 1;
   }
 }
+
 @media (max-width: 992px) {
   .indicators {
     visibility: hidden;
