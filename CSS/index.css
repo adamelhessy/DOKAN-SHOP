@@ -16,11 +16,22 @@
   font-size: 3rem;
 }
 .nav_text {
-  color: #ffffff;
-  transition: 0.5s;
+  transition: 0.5s !important;
+  font-size: 1.1rem !important ;
+}
+.nav_line {
+  background-color: #e74c3c !important ;
+  color: white !important ;
 }
 .nav_text:hover {
-  color: #e74c3c;
+  color: white !important ;
+  background-color: #e74c3c !important ;
+  text-transform: uppercase;
+  border-radius: 0.4rem !important ;
+}
+.end_txt:hover {
+  color: #e74c3c !important ;
+  transition: 0.5s !important ;
 }
 .gap {
   gap: 4.5rem;
@@ -51,6 +62,15 @@
 }
 .deal_card:hover .offer {
   animation: open1 0.5s ease-out forwards;
+}
+.btn_cust {
+  background-color: #cd5c5c !important ;
+  border: none !important ;
+  color: #ffffff !important ;
+  transition: 0.5s !important ;
+}
+.btn_cust:hover {
+  transform: scale(1.1);
 }
 
 @keyframes open1 {

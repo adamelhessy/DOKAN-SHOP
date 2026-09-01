@@ -45,17 +45,21 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Latest Products</a>
+              <a class="nav-link text-light nav_text" href="#Product"
+                >Latest Products</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Top Deals</a>
+              <a class="nav-link text-light nav_text" href="#Deals"
+                >Top Deals</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Log In</a>
+              <a class="nav-link text-light nav_text" href="#">Log In</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle text-light"
+                class="nav-link dropdown-toggle text-light nav_text"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -64,14 +68,16 @@
                 Pages
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">About Us</a></li>
-                <li><a class="dropdown-item" href="#">Men's</a></li>
-                <li><a class="dropdown-item" href="#">Women's</a></li>
-                <li><a class="dropdown-item" href="#">Kid's</a></li>
-                <li><a class="dropdown-item" href="#">Accessories</a></li>
-                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item nav_text" href="#">About Us</a></li>
+                <li><a class="dropdown-item nav_text" href="#">Men's</a></li>
+                <li><a class="dropdown-item nav_text" href="#">Women's</a></li>
+                <li><a class="dropdown-item nav_text" href="#">Kid's</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Contact Us</a>
+                  <a class="dropdown-item nav_text" href="#">Accessories</a>
+                </li>
+                <li><hr class="dropdown-divider nav_line" /></li>
+                <li>
+                  <a class="dropdown-item nav_text" href="#">Contact Us</a>
                 </li>
               </ul>
             </li>
@@ -174,7 +180,7 @@
     <div
       class="products w-100 d-flex justify-content-evenly flex-column align-items-center gap-5 mt-5 p-3"
     >
-      <div class="title1">
+      <div class="title1" id="Product">
         <h1 class="text-center">Latest Product</h1>
         <p class="text-center">here , you can find our newest products</p>
       </div>
@@ -189,7 +195,7 @@
             </div>
             <h5 class="card-title">New Green Jacket</h5>
             <p class="card-text">EGP 290.0</p>
-            <a href="#" class="btn btn-primary bg-danger">See More</a>
+            <a href="#" class="btn btn_cust">See More</a>
           </div>
         </div>
         <!-- Card 1 -->
@@ -203,7 +209,7 @@
             </div>
             <h5 class="card-title">New Green Jacket</h5>
             <p class="card-text">EGP 290.0</p>
-            <a href="#" class="btn btn-primary bg-danger">See More</a>
+            <a href="#" class="btn btn_cust">See More</a>
           </div>
         </div>
         <!-- Card 2 -->
@@ -217,7 +223,7 @@
             </div>
             <h5 class="card-title">New Green Jacket</h5>
             <p class="card-text">EGP 290.0</p>
-            <a href="#" class="btn btn-primary bg-danger">See More</a>
+            <a href="#" class="btn btn_cust">See More</a>
           </div>
         </div>
         <!-- Card 3 -->
@@ -232,7 +238,7 @@
             </div>
             <h5 class="card-title">New Green Jacket</h5>
             <p class="card-text">EGP 290.0</p>
-            <a href="#" class="btn btn-primary bg-danger">See More</a>
+            <a href="#" class="btn btn_cust">See More</a>
           </div>
         </div>
         <!-- Card 4 -->
@@ -242,6 +248,7 @@
 
     <!-- Shop Video -->
     <div
+      id="ShopVideo"
       class="Video_Container d-flex justify-content-center align-items-center flex-column"
     >
       <div class="Video_text text-center">
@@ -264,6 +271,7 @@
 
     <!-- Deals -->
     <div
+      id="Deals"
       class="Deals_Cont d-flex flex-column justify-content-center align-items-center g-4 mt-5 p-4"
     >
       <div class="text-center">
@@ -330,7 +338,7 @@
     <!-- Deals -->
 
     <!-- FORM -->
-    <div class="FORM d-flex flex-column g-5 mt-5 p-3">
+    <div id="Form" class="FORM d-flex flex-column g-5 mt-5 p-3">
       <div class="Feedback">
         <h1 class="text-center">Feedback</h1>
         <p class="text-center">
@@ -360,7 +368,7 @@
               required
             ></textarea>
             <div class="d-flex justify-content-end">
-              <button type="button" class="btn btn-danger">SUBMIT</button>
+              <button type="button" class="btn nav_line">SUBMIT</button>
             </div>
           </form>
         </div>
@@ -385,6 +393,7 @@
 
     <!-- END -->
     <div
+      id="End"
       class="end d-flex flex-column justify-content-center align-items-center bg-dark p-5 w-100"
     >
       <div class="up_section justify-content-evenly text-light row">
@@ -401,16 +410,16 @@
           class="d-flex flex-column g-4 text-center col-lg-3 col-md-6 col-sm-12"
         >
           <h2 class="fs-5 mb-4">Shopping & Categories</h2>
-          <a class="fs-6 nav_txt text-decoration-none text-light"
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
             >Men's Shopping</a
           >
-          <a class="fs-6 nav_txt text-decoration-none text-light"
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
             >Womans's Shopping</a
           >
-          <a class="fs-6 nav_txt text-decoration-none text-light"
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
             >Kid's Shopping</a
           >
-          <a class="fs-6 nav_txt text-decoration-none text-light"
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
             >Accessories</a
           >
         </div>
@@ -418,17 +427,27 @@
           class="d-flex flex-column g-4 text-center col-lg-3 col-md-6 col-sm-12"
         >
           <h2 class="fs-5 mb-4">Useful Links</h2>
-          <a class="fs-6 nav_txt text-decoration-none text-light">Home Page</a>
-          <a class="fs-6 nav_txt text-decoration-none text-light">About Us</a>
-          <a class="fs-6 nav_txt text-decoration-none text-light">Contact</a>
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
+            >Home Page</a
+          >
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
+            >About Us</a
+          >
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
+            >Contact</a
+          >
         </div>
         <div
           class="d-flex flex-column g-4 text-center col-lg-3 col-md-6 col-sm-12"
         >
           <h2 class="fs-5 mb-4">Help & Information</h2>
-          <a class="fs-6 nav_txt text-decoration-none text-light">Help</a>
-          <a class="fs-6 nav_txt text-decoration-none text-light">FAQ'S</a>
-          <a class="fs-6 nav_txt text-decoration-none text-light"
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
+            >Help</a
+          >
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
+            >FAQ'S</a
+          >
+          <a class="fs-6 nav_txt text-decoration-none text-light end_txt"
             >Track Your Shipping</a
           >
         </div>
