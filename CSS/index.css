@@ -1,0 +1,30 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+.adjust {
+  filter: brightness(0.4);
+}
+.top_75 {
+  top: 75%;
+}
+.gap {
+  gap: 4.5rem;
+}
+.logo {
+  font-size: 5rem;
+}
+.Large_text {
+  font-size: 2.5rem;
+}
+.nav_txt {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 992px) {
+  .indicators {
+    visibility: hidden;
+  }
+}
