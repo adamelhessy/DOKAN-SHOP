@@ -22,7 +22,37 @@
   font-size: 1rem;
   margin-bottom: 0.8rem;
 }
+.deal_card {
+  transition: 0.5s;
+}
+.offer {
+  top: 8%;
+  bottom: 8%;
+  left: 10%;
+  right: 10%;
+  background-color: rgba(192, 57, 43, 0.85);
+  color: #ffffff;
+  opacity: 0;
+  border-radius: 6px;
+  pointer-events: none;
+}
+.deal_card:hover .offer {
+  animation: open1 0.5s ease-out forwards;
+}
 
+@keyframes open1 {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 @media (max-width: 992px) {
   .indicators {
     visibility: hidden;
