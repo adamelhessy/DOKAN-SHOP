@@ -47,10 +47,17 @@
 .card_border {
   outline-style: outset;
   outline-color: whitesmoke;
+  outline-width: 0.2rem;
 }
 
 /* Form Section */
 .address_title {
   color: #be5e5f;
   text-decoration: underline;
+}
+
+.contact_border {
+  outline-style: outset;
+  outline-color: whitesmoke;
+  outline-width: 0.5rem;
 }

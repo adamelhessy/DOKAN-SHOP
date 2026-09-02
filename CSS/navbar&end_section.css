@@ -32,3 +32,19 @@
 .Large_text {
   font-size: 2.5rem;
 }
+.facebook:hover {
+  color: #3b5998 !important ;
+  transition: 0.5s !important ;
+}
+.twitter:hover {
+  color: #00acee !important ;
+  transition: 0.5s !important ;
+}
+.whatsapp:hover {
+  color: #25d366 !important ;
+  transition: 0.5s !important ;
+}
+.youtube:hover {
+  color: #ff0000 !important ;
+  transition: 0.5s !important ;
+}
