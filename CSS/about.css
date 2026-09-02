@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .banner-section {
-  height: 35vh;
+  height: 40vh;
   background: url("../media/About/about-us-page-heading.jpg") top center / cover;
 }
 .about_txt {
