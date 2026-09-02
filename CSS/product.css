@@ -32,11 +32,3 @@
   transition: 0.5s !important;
 }
 /* Products */
-.prod_w {
-  width: 80% !important;
-}
-@media (max-width: 992px) {
-  .prod_w {
-    width: 100% !important;
-  }
-}
