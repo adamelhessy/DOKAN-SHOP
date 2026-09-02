@@ -27,16 +27,30 @@
 .border_bottom {
   border-bottom: 3px solid #4b4847;
 }
-.name {
+.name,
+.role,
+.team_title {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: #1a1a1a;
   font-size: 1.75rem;
   margin-bottom: 0.25rem;
 }
 .role {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  color: #6c757d;
+  color: #6c757d !important;
   font-size: 1rem;
+}
+.team_title {
+  font-size: 2.75rem;
+}
+.card_border {
+  outline-style: outset;
+  outline-color: whitesmoke;
+}
+
+/* Form Section */
+.address_title {
+  color: #be5e5f;
+  text-decoration: underline;
 }
