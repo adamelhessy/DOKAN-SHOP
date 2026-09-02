@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner-section {
+  height: 35vh;
+  background: url("../media/About/about-us-page-heading.jpg") top center / cover;
+}
+.about_txt {
+  font-weight: 500;
+  color: #797171;
+}
+.about_icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #22262a;
+  margin-right: 1rem;
+  color: #ffffff;
+}
+.about_icon:hover {
+  background-color: whitesmoke;
+  color: #22262a;
+  transition: 0.5s;
+}
+.border_bottom {
+  border-bottom: 3px solid #4b4847;
+}
+.name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+.role {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #6c757d;
+  font-size: 1rem;
+}

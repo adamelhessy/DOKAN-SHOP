@@ -3,51 +3,30 @@
   padding: 0rem;
   box-sizing: border-box;
 }
-.bg-grey {
-  background-color: #343a40;
-}
+
 .adjust {
   filter: brightness(0.4);
 }
-.top_70 {
-  top: 70%;
+.top_80 {
+  top: 80%;
 }
-.size {
-  font-size: 3rem;
-}
-.nav_text {
-  transition: 0.5s !important;
-  font-size: 1.1rem !important ;
-}
-.nav_line {
-  background-color: #e74c3c !important ;
-  color: white !important ;
-}
-.nav_text:hover {
-  color: white !important ;
-  background-color: #e74c3c !important ;
-  text-transform: uppercase;
-  border-radius: 0.4rem !important ;
-}
-.end_txt:hover {
-  color: #e74c3c !important ;
-  transition: 0.5s !important ;
-}
+
 .gap {
   gap: 4.5rem;
 }
-.logo {
-  font-size: 5rem;
-}
-.Large_text {
-  font-size: 2.5rem;
-}
-.nav_txt {
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-}
 .deal_card {
   transition: 0.5s;
+}
+.prod_title {
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.prod_txt {
+  font-size: 1.3rem;
+  color: #777777;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 .offer {
   top: 8%;
@@ -71,6 +50,10 @@
 }
 .btn_cust:hover {
   transform: scale(1.1);
+}
+.icon_hov:hover {
+  color: #e74c3c !important ;
+  transition: 0.5s !important;
 }
 
 @keyframes open1 {
