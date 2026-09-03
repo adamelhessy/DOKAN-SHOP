@@ -30,7 +30,11 @@
   outline-color: whitesmoke;
   outline-width: 0.2rem;
 }
-
+/* For Contact, About */
+.banner-section {
+  height: 40vh;
+  background: url("../media/About/about-us-page-heading.jpg") top center / cover;
+}
 /* Form Section */
 .address_title {
   color: #be5e5f;
