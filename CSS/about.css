@@ -32,8 +32,9 @@
 }
 /* For Contact, About */
 .banner-section {
-  height: 40vh;
+  height: 60vh;
   background: url("../media/About/about-us-page-heading.jpg") top center / cover;
+  padding: 1rem;
 }
 /* Form Section */
 .address_title {

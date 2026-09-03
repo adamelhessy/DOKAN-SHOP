@@ -31,3 +31,6 @@
   color: #e74c3c !important ;
   transition: 0.5s !important;
 }
+.mb_customize {
+  margin-bottom: 1.5rem !important;
+}
