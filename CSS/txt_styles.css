@@ -24,3 +24,8 @@
   text-transform: capitalize;
   letter-spacing: 2px;
 }
+.card_border {
+  outline-style: outset;
+  outline-color: whitesmoke;
+  outline-width: 0.2rem;
+}
