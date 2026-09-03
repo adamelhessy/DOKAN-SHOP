@@ -52,3 +52,6 @@
   color: indianred;
   font-weight: 600;
 }
+body {
+  overflow-x: hidden;
+}
