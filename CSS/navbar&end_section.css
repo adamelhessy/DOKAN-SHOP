@@ -7,6 +7,7 @@
 .nav_text {
   transition: 0.5s !important;
   font-size: 1.1rem !important ;
+  font-family: "Poppins", sans-serif;
 }
 .nav_line {
   background-color: indianred !important ;
@@ -22,9 +23,13 @@
   color: indianred !important ;
   transition: 0.5s !important ;
 }
-.nav_txt {
+.nav_txt,
+.end_icon {
   font-size: 1rem;
   margin-bottom: 0.8rem;
+}
+.nav_txt {
+  font-family: "Poppins", sans-serif;
 }
 .logo {
   font-size: 5rem;
@@ -65,11 +70,21 @@
   outline-color: whitesmoke;
   outline-width: 0.2rem;
 }
+
+/* Login */
+.effect:hover {
+  text-decoration: underline !important;
+  transition: 0.1s;
+  font-weight: 700;
+}
 @media (max-width: 992px) {
   .prod_w {
     width: 100% !important;
   }
-  .pro2_w {
+  .prod2_w {
+    width: 100% !important;
+  }
+  .res_w {
     width: 100% !important;
   }
   .form_center {

@@ -8,6 +8,7 @@
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../media/men/products-background.jpg") top center / cover;
+  margin-top: 4rem;
 }
 
 /* Products */
