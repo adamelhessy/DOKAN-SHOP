@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.about_txt {
-  font-weight: 500;
-  color: #797171;
-}
 .about_icon {
   width: 2.5rem;
   height: 2.5rem;
@@ -35,4 +31,9 @@
   height: 60vh;
   background: url("../media/About/about-us-page-heading.jpg") top center / cover;
   padding: 1rem;
+}
+@media (max-width: 992px) {
+  .about_align {
+    text-align: center !important;
+  }
 }
