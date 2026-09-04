@@ -36,8 +36,3 @@
   background: url("../media/About/about-us-page-heading.jpg") top center / cover;
   padding: 1rem;
 }
-/* Form Section */
-.address_title {
-  color: #be5e5f;
-  text-decoration: underline;
-}
