@@ -96,4 +96,7 @@
   .btn_stretch {
     width: 100% !important;
   }
+  .address_media {
+    align-items: center !important;
+  }
 }
