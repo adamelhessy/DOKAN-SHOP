@@ -274,7 +274,6 @@ body {
   height: 2.5rem;
   border-radius: 50%;
   background-color: #22262a;
-  margin-right: 1rem;
   color: #ffffff;
 }
 
@@ -358,16 +357,13 @@ body {
    11. MEDIA QUERIES
    ========================================================================== */
 @media (max-width: 992px) {
-  .prod_w {
-    width: 100% !important;
-  }
-  .prod2_w {
-    width: 100% !important;
-  }
+  .prod_w,
+  .prod2_w,
   .res_w {
     width: 100% !important;
   }
-  .form_center {
+  .form_center,
+  .about_align {
     text-align: center !important;
   }
   .btn_stretch {
@@ -378,8 +374,5 @@ body {
   }
   .indicators {
     visibility: hidden;
-  }
-  .about_align {
-    text-align: center !important;
   }
 }
